@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="stomp.js"></script>
+    <script src="sparkline.js"></script> -->
+</head>
+
+<body>
+
+    <nav class="nav-bar">
+        <div class="left-nav"></div>
+        <div class="right-nav">
+            <a href="/">Home</a>
+            <a href="/details.html">Details</a>
+        </div>
+    </nav>
+
+    <section class="my-content">
+
+        <h3>Solution Description</h3>
+
+        <ul>
+            <li>Connect STOMP service for price update.</li>
+            <li>Get each response and convert to JSON object with "name" from the response.</li>
+            <li>Convert constructed JSON object to array of object.</li>
+            <li>Sort array based on "lastChangeBid" key from the object.</li>
+            <li>Render table dynamically from sorted array.</li>
+        </ul>
+
+        <h3>Personal details</h3>
+        <table width="10%">
+            <tr>
+                <td>Name</td>
+                <td>sapthagiri</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>sapthagiri91@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>+91-7299314890</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="bundle.js"></script>
+
+</body>
+
+</html>

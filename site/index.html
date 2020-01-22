@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="stomp.js"></script>
+    <script src="sparkline.js"></script>
+</head>
+
+<body>
+
+    <nav class="nav-bar">
+        <div class="left-nav"></div>
+        <div class="right-nav">
+            <a href="/">Home</a>
+            <a href="/details.html">Details</a>
+        </div>
+    </nav>
+
+    <section class="my-content">
+
+        <div class="card-view">
+
+            <div class="card">
+                <div class="card-container">
+                    <p>Best price last changed</p>
+                    <h3 id="lastChangeBid"></h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-container">
+                    <p>Graph</p>
+                    <span id="lastChangeBid-sparkline"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Best bid</th>
+                    <th>Best ask price</th>
+                    <th>Best bid last changed</th>
+                    <th>Best price last changed</th>
+                    <th>Graph</th>
+                </tr>
+            </thead>
+            <tbody id="sorted-data">
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+    <script src="bundle.js"></script>
+
+</body>
+
+</html>
