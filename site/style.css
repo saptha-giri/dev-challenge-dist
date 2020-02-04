@@ -29,6 +29,7 @@ h2 {
 	align-items: flex-start;
 	flex-direction: column;
 	margin-left: 50px;
+	margin-top: 80px;
 }
 
 table,
@@ -40,6 +41,7 @@ td {
 	border-radius: 2px;
 	font-size: 12px;
 	margin-left: 50px;
+	height:60px;
 }
 
 table {
@@ -79,7 +81,9 @@ thead {
 
 .nav-bar {
 	height: 80px;
-	width: 100vw;
+	position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,4 +112,5 @@ thead {
 	justify-content: center;
 	align-items: center;
 	background-color: #333333;
+	margin-top: 50px;
 }
